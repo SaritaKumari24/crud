@@ -23,7 +23,7 @@
             width: 100%;
         }
         th, td {
-            padding: 10px;
+            padding: 11px;
             text-align: left;
         }
         th {
@@ -31,7 +31,7 @@
         }
         .table-actions {
             display: flex;
-            gap: 10px;
+            gap: 9px;
         }
     </style>
 </head>

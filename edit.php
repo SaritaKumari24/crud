@@ -76,7 +76,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                     </div>
 
                     <div class="mb-3">
-                        <label for="mobile" class="form-label">Mobile Number:</label>
+                        <label for="mobile" class="form-label">Phone Number:</label>
                         <input type="number" id="mobile" name="mobile" class="form-control" value="<?= $data['mobile']; ?>" required>
                     </div>
 
@@ -86,7 +86,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                     </div>
 
                     <div class="mb-3">
-                        <label class="form-label">Gender:</label><br>
+                        <label class="form-label">Genders:</label><br>
                         <div class="form-check form-check-inline">
                             <input type="radio" id="male" name="gender" value="Male" class="form-check-input" <?= $data['gender'] == 'Male' ? 'checked' : ''; ?> required>
                             <label for="male" class="form-check-label">Male</label>
@@ -98,7 +98,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                     </div>
 
                     <div class="mb-3">
-                        <label for="proof" class="form-label">Proof:</label>
+                        <label for="proof" class="form-label">Proof :</label>
                         <select id="proof" name="proof" class="form-select" required>
                             <option value="Aadhaar" <?= $data['proof'] == 'Aadhaar' ? 'selected' : ''; ?>>Aadhaar</option>
                             <option value="PAN" <?= $data['proof'] == 'PAN' ? 'selected' : ''; ?>>PAN</option>
